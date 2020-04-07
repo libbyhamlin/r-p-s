@@ -10,7 +10,7 @@ section {
     font-family: sans-serif;
 }
 
-.score-area {
+.score {
     color: rgb(224, 224, 224);
     height: 20vh;
     display: flex;
@@ -18,35 +18,33 @@ section {
     align-items: center;
 }
 
-.score-area h2 {
+.score h2 {
     font-size: 30px;
 }
 
-.score-area p {
+.score p {
     text-align: center;
     padding: 10px;
     font-size: 25px;
 }
 
-.intro-area {
+.intro {
     color:rgb(224, 224, 224);
     display: flex;
     height: 50vh;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    transition: opacity 0.5s ease;
-    /* opacity: 0; */
     /* Transition to intro*/
     transition: opacity 0.5s ease;
 }
 
-.intro-area h1 {
+.intro h1 {
     font-size: 50px;
 }
 
-.intro-area button,
-.option-area button {
+.intro button,
+.options button {
     width: 150px;
     height: 50px;
     background: none;
@@ -64,7 +62,7 @@ section {
    left: 50%;
    transform: translate(-50%, -50%);
    transition: opacity 0.5s ease 0.5s; 
-   
+
 }
 
 .winner {
@@ -73,8 +71,13 @@ section {
     font-size: 40px;
 }
 
+.hands {
+    padding-top: 25px;
+    padding-bottom: 65px;
+}
+
 .hands, 
-.option-area {
+.options {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -89,7 +92,7 @@ div.fadeOut {
     pointer-events: none;
 }
 
-div.faceIn {
+div.fadeIn {
     opacity: 1;
     pointer-events: all;
 }
