@@ -36,7 +36,9 @@ section {
     align-items: center;
     justify-content: space-around;
     transition: opacity 0.5s ease;
-    opacity: 0;
+    /* opacity: 0; */
+    /* Transition to intro*/
+    transition: opacity 0.5s ease;
 }
 
 .intro-area h1 {
@@ -62,6 +64,7 @@ section {
    left: 50%;
    transform: translate(-50%, -50%);
    transition: opacity 0.5s ease 0.5s; 
+   
 }
 
 .winner {

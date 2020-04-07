@@ -19,6 +19,4 @@ const checkResult = (player, computer) => {
 
 
 
-
-
 export default checkResult;
